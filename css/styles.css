@@ -1,0 +1,120 @@
+body {
+	font-family: 'Caveat', cursive;
+	font-size: 25px;
+}
+
+}
+.skill-list {	
+	font-family: 'Caveat', cursive;
+	font-size: 50px;
+	text-align: center;
+	line-height: 150%;
+	margin-bottom: 100px;
+}
+img {
+	/* this is limiting the width of the img, so it takes 100% width of the parent maximum*/
+	max-width: 100%;
+}
+nav {
+	background-color: #DBEBF4;
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+}	
+nav ul li {
+	display: inline-block;
+	margin: 25px 15px;
+	/* o refers to top and bottom; 15 refers to left and right*/
+	padding: 0;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 20px;
+}
+nav ul {
+	margin: 0 auto;
+	text-align: center;
+	padding: 30px;
+}
+body ul {
+	margin: 0;
+	padding: 0;
+}
+
+.empty {
+	width: 60px;
+	border-top: 1px solid black;
+	top: 25px;
+	position: relative;
+}
+nav li a {
+	text-decoration: none;
+	color: black;
+}
+nav li a:hover {
+	text-decoration: underline;
+}
+
+}
+
+header {
+	top: 70px;
+	position: relative;
+	margin-bottom: 100px;
+	background-image: url('../img/background.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-y: -100px;
+}
+h1 {
+	font-size: 100px; 
+	line-height: 95%;
+	margin-top: 150px;
+}
+ul li {
+	 list-style: none; /* delete the bullets*/
+	 margin: 10px 0;
+}
+/* this button is for any link "learn more" in the page*/
+.button {
+	border: 1px solid black;
+	text-decoration: none;
+	color: black;
+	padding: 5px 5px;
+	margin: 1px;
+	display: inline-block;
+	border-radius: 20px;
+	font-size: 20px;
+	transition: background 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+.button:hover {
+	background: black;
+	color: white;
+}
+.intro-img {
+	box-shadow: 1px 2px 30px rgba(0,0,0,0.2); /*tạo bóng đổ cho hình*/
+	margin-top: 90px;
+	margin-left: 70px;
+	margin-right: 60px;
+}
+footer {
+	text-align: center;
+	background-image: url('../img/background.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+footer h2 {
+	font-size: 50px;
+	margin-bottom: 35px;
+}
+footer p {
+	font-size: 20px;
+}
+
+.skill-list {
+	text-align: center;
+	font-size: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: #BDC3C7;
+	text-transform: uppercase;
+}
